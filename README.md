@@ -74,4 +74,3 @@ My project is organized into three main folders:
 
 I'm excited to continue applying my newfound knowledge and skills in the cloud and DevOps field, and I'm grateful to xgrid.co for their excellent guidance throughout this journey.
 
-[![Follow me on GitHub](github_button.png)](https://github.com/SanaRahman)
