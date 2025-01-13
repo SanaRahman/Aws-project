@@ -1,76 +1,75 @@
-# EcoTravel Carbon Calculator Deployment with Terraform
+# Cloud and DevOps Bootcamp Completion
 
-This Terraform project automates the deployment of the EcoTravel Carbon Calculator
- application on Amazon Web Services (AWS). The application uses AWS services like Cognito, RDS (Aurora), ECS Fargate, Lambda with API Gateway, Application Load Balancers, and Route 53 for domain registration.
+🚀 **Welcome to my Cloud and DevOps Bootcamp Journey!** 🚀
 
-## Overview
+I am thrilled to announce that I have successfully completed the Cloud and DevOps Bootcamp at [xgrid.co](https://www.xgrid.co/). This journey has been both challenging and rewarding, and I would like to express my sincere appreciation to xgrid.co for providing me with the knowledge and skills needed to excel in the cloud and DevOps domain.
 
-The EcoTravel Carbon Calculator
- is a web application that allows users to calculate their carbon emissions for different travel modes and explore eco-friendly alternatives. The project leverages various AWS services to provide a secure and scalable solution.
+## 🛠️ Skills and Knowledge Gained
 
-### AWS Services Used
+Throughout the bootcamp, I gained proficiency in various AWS services and DevOps practices. Here is a summary of some of the key areas I am well-versed in:
 
-- **AWS Cognito**: Manages user authentication and authorization, allowing personalized experiences for users.
+### 🌟 AWS Services
 
-- **RDS (Aurora)**: Stores user data and application data, ensuring data durability and scalability.
+1. **Amazon EC2 (Elastic Compute Cloud):** I have experience in provisioning and managing virtual servers in the cloud.
 
-- **ECS Fargate**: Deploys the frontend application in containers, ensuring scalability and resource isolation.
+2. **Amazon ECS (Elastic Container Service):** I have learned to orchestrate containerized applications efficiently.
 
-- **Lambda with API Gateway**: Provides backend functions for the application, including calculation logic and data retrieval.
+3. **AWS Lambda:** I can design and deploy serverless functions for various use cases, which offers great benefits in terms of cost optimization and scalability.
 
-- **Application Load Balancers**: Distribute incoming traffic across ECS Fargate instances for high availability.
+4. **Amazon Cognito:** I have expertise in implementing user authentication and authorization in my applications.
 
-- **Route 53**: Registers and manages the application's domain name for easy access.
+5. **Amazon Route 53:** I can configure DNS settings, including CNAME records and SSL/TLS certificates for secure communication.
 
-## Prerequisites
+6. **Load Balancers and Listeners:** I have experience setting up load balancers and configuring listeners for distributing traffic across multiple instances.
 
-Before running the Terraform scripts, ensure that you have:
+7. **Blue-Green Deployment:** I understand the concept of blue-green deployments, which allows for seamless updates and rollback strategies.
 
-- [Terraform](https://www.terraform.io/) installed on your local machine.
-- AWS CLI configured with the necessary IAM permissions.
-- An AWS account where resources will be provisioned.
+For a detailed list of all the sprint tasks I covered during my bootcamp at xgrid.co, please refer to my [GitHub repository](https://github.com/SanaRahman/AWS-Terraform-Series).
 
-## Usage
+### 💼 AWS Services Used for My Serverless Website
 
-1. Clone this repository to your local machine:
+I have successfully deployed a serverless website on Amazon Web Services (AWS) that calculates carbon emissions based on user input data. Here's how I leveraged various AWS services for this project:
 
-   ```shell
-   git clone https://github.com/SanaRahman/Aws-project.git
-   ```
+1. **Amazon ECS Fargate for Frontend:** I utilized Amazon ECS Fargate to host the frontend of my application. This container orchestration service allowed me to deploy and scale my frontend easily.
+   Benefits of using ECS Fargate:
+   - Efficient resource utilization
+   - Automatic scaling
+   - Isolation between containers
 
-2. Navigate to the project directory:
+2. **AWS Lambda for Backend Deployment:** I employed AWS Lambda functions for the backend of my application. This serverless approach offers several advantages, including cost optimization and automatic scaling based on demand.
+   Benefits of using Lambda:
+   - Cost optimization (pay only for actual usage)
+   - Automatic scaling
+   - No server management required
 
-   ```shell
-   cd project-terraform
-   ```
+3. **Amazon RDS Cluster for Serverless:** I used an Amazon RDS (Relational Database Service) cluster to manage my serverless database. This choice provides high availability and scalability for data storage.
+   Benefits of using Amazon RDS:
+   - High availability and automatic failover
+   - Scalability
+   - Managed database service
 
-3. Initialize the Terraform working directory:
+4. **Load Balancer:** I integrated a load balancer to distribute incoming traffic evenly across my application instances, ensuring high availability and improved performance.
+   Benefits of using a load balancer:
+   - High availability
+   - Scalability
+   - Load distribution
 
-   ```shell
-   terraform init
-   ```
+5. **Amazon Route 53 for Domain Registration:** I registered my domain using Amazon Route 53, which simplifies DNS management and provides reliable domain services.
 
-4. Review and customize the `main.tf` file to match your specific configuration needs.
+## 📂 Project Structure
 
-6. Deploy the infrastructure using Terraform:
+My project is organized into three main folders:
 
-   ```shell
-   terraform apply
-   ```
+1. **Frontend:** This folder contains information about the React application, including the user interface and client-side logic.
 
-7. Once the deployment is complete, Terraform will output the URL where the EcoTravel Carbon Calculator
- application can be accessed.
+2. **Backend:** Here, you'll find the Python backend code, which was later transformed into separate Lambda functions to power the serverless backend of the application.
 
-## Cleanup
+3. **Terraform:** The Terraform files in this folder include all the infrastructure-as-code (IAC) configurations and services used to deploy and manage my AWS resources.
 
-To destroy the provisioned infrastructure and release AWS resources, run the following Terraform command:
+## 🖼️ Images
 
-```shell
-terraform destroy
-```
-## Architecture Diagram
-![Diagram](arch.png)
+![Image 2](../2.png)
+![Image 3](../3.png)
+![Image 1](../1.png)
 
-
-**Note**: Be cautious when using `terraform destroy` as it will remove all resources created by Terraform.
-
+I'm excited to continue applying my newfound knowledge and skills in the cloud and DevOps field, and I'm grateful to xgrid.co for their excellent guidance 
