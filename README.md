@@ -73,3 +73,5 @@ terraform destroy
 
 
 **Note**: Be cautious when using `terraform destroy` as it will remove all resources created by Terraform.
+
+[learn more about the project](./project-terraform/Readme.md)
